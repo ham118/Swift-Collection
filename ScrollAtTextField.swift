@@ -1,3 +1,5 @@
+//This is the class for show/hide keyboard and accordingly scrolls scrollView with multiple textfields or UIControls.
+
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate  {
