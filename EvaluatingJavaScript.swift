@@ -1,5 +1,5 @@
-  //This is the code to change font size and avoid text copy functionality from entire html in UIWebView
-  //"textSize" : this is integer variable which you want to set font size
+  //This is the code to change font size and avoid text copy functionality from entire html in UIWebView | Swift version: 4
+  //"textSize": this is integer variable which you want to set font size
   func webViewDidFinishLoad(_ webView: UIWebView) {    
     if (webView.stringByEvaluatingJavaScript(from: "document.readyState") == "complete") {
       //To avoid to detect touch gesture for disable user selection
