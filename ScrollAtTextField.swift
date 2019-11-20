@@ -1,7 +1,6 @@
-//This is the class for show/hide keyboard and accordingly scrolls scrollView with multiple textfields or UIControls | Swift version: 4
+//This is the class for show/hide keyboard and accordingly scrolls scrollView with multiple textfields or UIControls | Swift 4
 
 import UIKit
-
 class ViewController: UIViewController, UITextFieldDelegate  {
   
   //MARK: - Variables
