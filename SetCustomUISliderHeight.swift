@@ -1,4 +1,4 @@
-//To set customize UISlider height | Swift version: 4
+//To set customize UISlider height | Swift 4
 //Steps:
 //[1] Add "CustomSlider" class in your swift file as per your requirment.
 //[2] Set "CustomSlider" in custom class in UISlider control.
