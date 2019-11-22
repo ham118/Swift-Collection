@@ -1,4 +1,5 @@
 //------------- Higher order functions in Swift 4 -------------
+
 //Higher order functions are functions that can accept other function or closure as parameters.
 //Those functions are Map, Filter, Reduce, Sorted, CompactMap, Chaining, Contains. Another new higher order functions were introduced in swift 4.2. Those functions are AllSatisfy, FirstIndex, LastIndex and RemoveAll.
 
@@ -8,7 +9,7 @@
 //In these examples above map accepted a closure as an argument and returned the result in the new array that contains fahrenheit values.
 
 let celciusArray = [-10.0, -2.0, 10.0, 56.0, 87.0, 100.0]
-let fahrenheitArray = celciusArray.map { $0 * (9/5) + 32 }
+let fahrenheitArray = celciusArray.map {$0 * (9/5) + 32}
 print(fahrenheitArray) 
 //Output: [14.0, 28.4, 50.0, 132.8, 188.6, 212.0]
 
