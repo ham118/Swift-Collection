@@ -1,4 +1,4 @@
-//Higher order functions in Swift 4
+//------------- Higher order functions in Swift 4 -------------
 //Higher order functions are functions that can accept other function or closure as parameters.
 //Those functions are Map, Filter, Reduce, Sorted, CompactMap, Chaining, Contains. Another new higher order functions were introduced in swift 4.2. Those functions are AllSatisfy, FirstIndex, LastIndex and RemoveAll.
 
@@ -137,3 +137,4 @@ numbers.removeAll(where: { $0 % 2 == 1 })
 print(numbers)
 //Output: [6, 8, 10]
 
+//------------------------------------------------------------------------------------------------
